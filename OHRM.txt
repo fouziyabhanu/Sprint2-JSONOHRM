@@ -1,0 +1,7 @@
+Business Flow
+1.Login
+2.Admin-User Management
+3.Admin-Job
+4.MyInfo
+5.PIM
+6.Logout
