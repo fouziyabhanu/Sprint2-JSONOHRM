@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="4.689">
+    <testcase classname="End-to-end functionality" name="Getting a resource" time="1.411">
+        <system-out><![CDATA[When I request for a resource...............................................passed
+Then I get the resource.....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="End-to-end functionality" name="Fetch list of resources" time="0.262">
+        <system-out><![CDATA[When I request for a list of resources......................................passed
+Then I get list of resources................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="End-to-end functionality" name="Creating a resource" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[When I add a new resource with "101","101","Wings of fire" and "Autography of APJ Abdul Kalam covering his early life and his work in Indian space research and missle programs".undefined
+Then The reource is added...................................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="End-to-end functionality" name="Creating a resource 2" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[When I add a new resource with "102","102","Believe in Yourself" and "A self-help book about self-esteem and confidence".undefined
+Then The reource is added...................................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="End-to-end functionality" name="Creating a resource 3" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[When I add a new resource with "103","103","A Girl with no dreams" and "A story about Dreams,Hope and Death.".undefined
+Then The reource is added...................................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="End-to-end functionality" name="Updating a resource" time="0.786">
+        <system-out><![CDATA[When I update a resource....................................................passed
+Then the resource is added..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="End-to-end functionality" name="Patching a resource" time="0.644">
+        <system-out><![CDATA[When I update a resource partially..........................................passed
+Then The resource details get updated.......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="End-to-end functionality" name="Deleting a resource" time="0.658">
+        <system-out><![CDATA[When I delete a resource....................................................passed
+Then The resource gets deleted..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="End-to-end functionality" name="Filtering a resource" time="0.736">
+        <system-out><![CDATA[When I want to fetch particular userId resource.............................passed
+Then I get that userId resources............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
