@@ -1,0 +1,36 @@
+JSONPlacehloder-API
+===================
+
+1. Getting a resource-Getting the resource we want.Used get request
+
+2. Listing all resources-display all the resources
+
+3. Creating a resource-Creating a new resource with the help of post request
+
+4. Updating a resource-Update the resource with the help of put request
+
+5. Patching a resource-Partially updating the resource with the help of patch request
+
+6. Deleting a resource-Deleting the resource with the help of delete request
+
+7. Filtering resources-Getting the resource we want with the help of queryparameter
+
+8.Authorization-
+
+
+
+
+OrangeHRM-Web based application
+===============================
+
+1.Login-Login using credentials(Username-Admin,password-admin123)
+
+2.Admin-UserManagement-Search for an user-Reset-Add an user-Edit user-delete user
+
+3.Admin-Job-Add job-Delete job-Edit job details
+
+4.PIM-Search for an employee-Reset-Add employee and edit-delete employee
+
+5.MyInfo-Edit personal details-Add blood group-Add attachment
+
+6.Logout-Finally logout
